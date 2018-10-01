@@ -1,0 +1,36 @@
+* {
+  font-family: Helvetica;
+}
+
+body {
+
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+p {
+  font-style: italic;
+}
+
+.section-container { 
+  margin: 4px;
+  border: 6px double black;
+}
+
+#beef-section > h1 {
+  color: red;
+}
+
+#chicken-section > h1 {
+  color: blue;
+}
+
+#sushi-section > h1 {
+  color: purple;
+}

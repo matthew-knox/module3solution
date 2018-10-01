@@ -1,28 +1,119 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
+    <title>Food LLC.</title>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Boostrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-  </head>
+</head>
 <body>
+    <header>
+        <nav id="navbar" class="navbar navbar-default">
+            <div class="container">
 
-  <h1>Hello Coursera!</h1>
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html">Food, LLC</a>
+                    </div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> <!-- .navbar-toggle --> 
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse visible-xs show">
+                    <ul id="nav-list" class="nav navbar-nav">
+                        <li class="">
+                            <a href="#beef-section">Beef</a>
+                        </li>
+                        <li class="">
+                            <a href="#chicken-section">Chicken</a>
+                        </li>
+                        <li class="">
+                            <a href="#sushi-section">Sushi</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text d-none"></span>
+                </div>  <!-- .collapse .navbar-collapse -->
+
+            </div>  <!-- .container -->
+        </nav>  <!-- #navbar -->
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <header class="header text-center">
+                <h2>Our Menu</h2>
+            </header>
+
+            <section id="beef-section" class="col-md-12 col-sm-12 col-xs-12 section-container">
+                <h1 class="text-center">Beef</h1>
+                <p class="cell-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet efficitur arcu. Suspendisse tincidunt nisi leo, in feugiat augue hendrerit a. Fusce molestie nisl felis, at aliquet mauris mollis nec. Etiam et enim aliquet, auctor ex quis, blandit eros. Phasellus vel velit eu erat venenatis vulputate. Maecenas eget ipsum mi. Aliquam tristique bibendum leo eget fermentum.
+                </p>
+                <p class="cell-content">
+                    Quisque ut turpis velit. Duis luctus porta tortor. Nunc at tortor iaculis, lobortis ipsum sed, lacinia erat. Quisque commodo pulvinar sapien, id lacinia massa dignissim quis. Curabitur id condimentum ligula. Nullam erat odio, molestie id diam et, accumsan fringilla lorem. Morbi sollicitudin et metus sed tempor. Phasellus fermentum tempor est. Suspendisse sapien dolor, ultrices in pellentesque a, sagittis eget eros. Duis auctor tellus sapien, non hendrerit nisl varius et. Praesent commodo, est eget volutpat varius, lectus ligula maximus nunc, id pretium purus augue a nisi. Aenean commodo quam sit amet purus sagittis, vel finibus eros maximus. Nam sed nisl convallis, convallis urna sit amet, maximus turpis.
+                </p>
+                <p class="cell-content">
+                    Nulla vel lorem tortor. Sed in urna nec libero sodales venenatis. Donec placerat, leo eget commodo pretium, tellus libero venenatis erat, eget efficitur libero nunc sed nulla. Morbi faucibus turpis eu ante hendrerit mattis. Ut ut euismod augue. Nam interdum vitae elit et consectetur. Proin consequat fringilla justo nec venenatis. In ac faucibus augue. Proin eu hendrerit lacus, non pellentesque est. Pellentesque egestas sodales nisl non blandit. Phasellus ullamcorper est mauris, sed congue lacus bibendum et. Integer fringilla orci in eros tristique, id hendrerit est auctor.
+                </p>
+                <p class="cell-content">
+                    Proin massa turpis, hendrerit in ultricies id, posuere eget orci. Vestibulum sit amet purus odio. Quisque vestibulum egestas sapien eu mollis. Phasellus venenatis bibendum augue, nec sagittis felis ultrices ut. Etiam ornare mollis arcu. Etiam quis condimentum ante. Pellentesque magna libero, pharetra eget facilisis sit amet, bibendum a lorem. Sed porta ex metus, at ultricies ligula auctor eget. Duis velit nisi, euismod vitae massa ut, faucibus convallis massa. Fusce faucibus tempus auctor. Integer ac accumsan turpis.
+                </p>
+                <p class="cell-content">
+                    Sed pharetra varius lacus et auctor. Integer malesuada accumsan lorem, eget auctor turpis aliquet ac. Aenean hendrerit fermentum mi, ac egestas quam accumsan nec. Maecenas et diam vitae est vehicula vehicula. Morbi vitae hendrerit ante, ac consectetur ex. Sed sed nisl sem. Fusce malesuada, velit nec porta luctus, magna ex euismod nulla, ac congue ex nisi id ex. Nullam aliquam massa sed velit suscipit, eu vestibulum odio eleifend. Quisque nunc sem, porttitor non lorem vel, elementum sollicitudin diam. Phasellus vel dignissim purus. Curabitur lectus augue, maximus a auctor et, volutpat ac sem. Maecenas vestibulum ornare tincidunt.
+                </p>
+            </section>  <!-- #beef-section -->
+            <section id="chicken-section" class="col-md-12 col-sm-12 col-xs-12 section-container">
+                <h1 class="text-center">Chicken</h1>
+                <p class="cell-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet efficitur arcu. Suspendisse tincidunt nisi leo, in feugiat augue hendrerit a. Fusce molestie nisl felis, at aliquet mauris mollis nec. Etiam et enim aliquet, auctor ex quis, blandit eros. Phasellus vel velit eu erat venenatis vulputate. Maecenas eget ipsum mi. Aliquam tristique bibendum leo eget fermentum.
+                </p>
+                <p class="cell-content">
+                    Quisque ut turpis velit. Duis luctus porta tortor. Nunc at tortor iaculis, lobortis ipsum sed, lacinia erat. Quisque commodo pulvinar sapien, id lacinia massa dignissim quis. Curabitur id condimentum ligula. Nullam erat odio, molestie id diam et, accumsan fringilla lorem. Morbi sollicitudin et metus sed tempor. Phasellus fermentum tempor est. Suspendisse sapien dolor, ultrices in pellentesque a, sagittis eget eros. Duis auctor tellus sapien, non hendrerit nisl varius et. Praesent commodo, est eget volutpat varius, lectus ligula maximus nunc, id pretium purus augue a nisi. Aenean commodo quam sit amet purus sagittis, vel finibus eros maximus. Nam sed nisl convallis, convallis urna sit amet, maximus turpis.
+                </p>
+                <p class="cell-content">
+                    Nulla vel lorem tortor. Sed in urna nec libero sodales venenatis. Donec placerat, leo eget commodo pretium, tellus libero venenatis erat, eget efficitur libero nunc sed nulla. Morbi faucibus turpis eu ante hendrerit mattis. Ut ut euismod augue. Nam interdum vitae elit et consectetur. Proin consequat fringilla justo nec venenatis. In ac faucibus augue. Proin eu hendrerit lacus, non pellentesque est. Pellentesque egestas sodales nisl non blandit. Phasellus ullamcorper est mauris, sed congue lacus bibendum et. Integer fringilla orci in eros tristique, id hendrerit est auctor.
+                </p>
+                <p class="cell-content">
+                    Proin massa turpis, hendrerit in ultricies id, posuere eget orci. Vestibulum sit amet purus odio. Quisque vestibulum egestas sapien eu mollis. Phasellus venenatis bibendum augue, nec sagittis felis ultrices ut. Etiam ornare mollis arcu. Etiam quis condimentum ante. Pellentesque magna libero, pharetra eget facilisis sit amet, bibendum a lorem. Sed porta ex metus, at ultricies ligula auctor eget. Duis velit nisi, euismod vitae massa ut, faucibus convallis massa. Fusce faucibus tempus auctor. Integer ac accumsan turpis.
+                </p>
+                <p class="cell-content">
+                    Sed pharetra varius lacus et auctor. Integer malesuada accumsan lorem, eget auctor turpis aliquet ac. Aenean hendrerit fermentum mi, ac egestas quam accumsan nec. Maecenas et diam vitae est vehicula vehicula. Morbi vitae hendrerit ante, ac consectetur ex. Sed sed nisl sem. Fusce malesuada, velit nec porta luctus, magna ex euismod nulla, ac congue ex nisi id ex. Nullam aliquam massa sed velit suscipit, eu vestibulum odio eleifend. Quisque nunc sem, porttitor non lorem vel, elementum sollicitudin diam. Phasellus vel dignissim purus. Curabitur lectus augue, maximus a auctor et, volutpat ac sem. Maecenas vestibulum ornare tincidunt.
+                </p>
+            </section>  <!-- #chicken-section -->
+            <section id="sushi-section" class="col-md-12 col-sm-12 col-xs-12 section-container">
+                <h1 class="text-center">Sushi</h1>
+                <p class="cell-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet efficitur arcu. Suspendisse tincidunt nisi leo, in feugiat augue hendrerit a. Fusce molestie nisl felis, at aliquet mauris mollis nec. Etiam et enim aliquet, auctor ex quis, blandit eros. Phasellus vel velit eu erat venenatis vulputate. Maecenas eget ipsum mi. Aliquam tristique bibendum leo eget fermentum.
+                </p>
+                <p class="cell-content">
+                    Quisque ut turpis velit. Duis luctus porta tortor. Nunc at tortor iaculis, lobortis ipsum sed, lacinia erat. Quisque commodo pulvinar sapien, id lacinia massa dignissim quis. Curabitur id condimentum ligula. Nullam erat odio, molestie id diam et, accumsan fringilla lorem. Morbi sollicitudin et metus sed tempor. Phasellus fermentum tempor est. Suspendisse sapien dolor, ultrices in pellentesque a, sagittis eget eros. Duis auctor tellus sapien, non hendrerit nisl varius et. Praesent commodo, est eget volutpat varius, lectus ligula maximus nunc, id pretium purus augue a nisi. Aenean commodo quam sit amet purus sagittis, vel finibus eros maximus. Nam sed nisl convallis, convallis urna sit amet, maximus turpis.
+                </p>
+                <p class="cell-content">
+                    Nulla vel lorem tortor. Sed in urna nec libero sodales venenatis. Donec placerat, leo eget commodo pretium, tellus libero venenatis erat, eget efficitur libero nunc sed nulla. Morbi faucibus turpis eu ante hendrerit mattis. Ut ut euismod augue. Nam interdum vitae elit et consectetur. Proin consequat fringilla justo nec venenatis. In ac faucibus augue. Proin eu hendrerit lacus, non pellentesque est. Pellentesque egestas sodales nisl non blandit. Phasellus ullamcorper est mauris, sed congue lacus bibendum et. Integer fringilla orci in eros tristique, id hendrerit est auctor.
+                </p>
+                <p class="cell-content">
+                    Proin massa turpis, hendrerit in ultricies id, posuere eget orci. Vestibulum sit amet purus odio. Quisque vestibulum egestas sapien eu mollis. Phasellus venenatis bibendum augue, nec sagittis felis ultrices ut. Etiam ornare mollis arcu. Etiam quis condimentum ante. Pellentesque magna libero, pharetra eget facilisis sit amet, bibendum a lorem. Sed porta ex metus, at ultricies ligula auctor eget. Duis velit nisi, euismod vitae massa ut, faucibus convallis massa. Fusce faucibus tempus auctor. Integer ac accumsan turpis.
+                </p>
+                <p class="cell-content">
+                    Sed pharetra varius lacus et auctor. Integer malesuada accumsan lorem, eget auctor turpis aliquet ac. Aenean hendrerit fermentum mi, ac egestas quam accumsan nec. Maecenas et diam vitae est vehicula vehicula. Morbi vitae hendrerit ante, ac consectetur ex. Sed sed nisl sem. Fusce malesuada, velit nec porta luctus, magna ex euismod nulla, ac congue ex nisi id ex. Nullam aliquam massa sed velit suscipit, eu vestibulum odio eleifend. Quisque nunc sem, porttitor non lorem vel, elementum sollicitudin diam. Phasellus vel dignissim purus. Curabitur lectus augue, maximus a auctor et, volutpat ac sem. Maecenas vestibulum ornare tincidunt.
+                </p>
+            </section>  <!-- #Sushi-section -->
+        </div>  <!-- row -->
+    </div>  <!-- container -->
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
